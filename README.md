@@ -6,7 +6,7 @@ int main()
 {
     int num1 = 0; //建立一个整型变量叫num1并赋值为0
     int num2 = 0; //建立一个整型变量叫num2并赋值为0
-    printf（“请输入两个整数：\n”）；//这是要输出来的东西，也可以加\n换行符号
+    printf（“请输入两个整数：”）；//这是要输出来的东西，也可以加\n换行符号
     scanf（“%d%d”,&sum1,&sum2）；//一个变量一个%d，两个变量两个%d，&sunm1和&sum2是固定的暂时不考虑
     int sum ＝ num1 + num2;//计算num1和num2的和
     printf（"%d\n",sum）
